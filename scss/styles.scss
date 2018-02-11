@@ -1,0 +1,10 @@
+@import '_normalize';
+@import '_mixins';
+@import '_vars';
+
+body {
+	background-color: $color;
+	height: 100%;
+	display: flex;
+	transition: all .25s;
+}
